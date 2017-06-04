@@ -52,7 +52,7 @@ var pieces = [[
 var orientations = oriGen(pieces);
 var bar = 4;
 var wellDepth = 20; // min = bar
-var wellWidth = 10; // min = 4
+var wellWidth = 15; // min = 4
 var worstPiece = worstPieceFactory(orientations, bar, wellDepth, wellWidth);
 var replayTimeout = 50; // milliseconds per frame
 
